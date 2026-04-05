@@ -1,4 +1,3 @@
-local TextService = game:GetService("TextService")
 --BaseGui Setup
 local CoreGUI = game.CoreGui
 local BaseGUI = Instance.new("ScreenGui",CoreGUI)
