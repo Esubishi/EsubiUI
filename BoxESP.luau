@@ -50,4 +50,4 @@ Box_Library.CreateNameLabel = function(parent)
   NameLabel.Position = UDim2.new(0,0,1,5)
   return NameLabel
 end
-return Library
+return Box_Library
