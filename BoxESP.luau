@@ -1,9 +1,9 @@
 local Box_Library = {}
 
 Box_Library.CreateBOXFolder = function()
-  local BoxESPParent = Instance.new("Folder", game.ReplicatedStorage)
-  BoxESPParent.Name = "ESUBI_BOX"
-  return BoxESPParent
+  local Folder = Instance.new("Folder", game.ReplicatedStorage)
+  Folder.Name = "ESUBI_BOX"
+  return Folder
 end
 
 Box_Library.CreateBillboardGui = function(parent)
