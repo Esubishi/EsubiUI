@@ -7,7 +7,8 @@ Box_Library.CreateBOXFolder = function()
 end
 
 Box_Library.CreateBillboardGui = function(parent)
-    local BillBoardGUI = Instance.new("BillboardGui", parent)
+    local BillBoardGUI = Instance.new("BillboardGui")
+    BillBoardGUI.Parent = parent
     BillBoardGUI.Name = "BOX_ESP"
     BillBoardGUI.Size = UDim2.new(4, 0, 6, 0)
     BillBoardGUI.AlwaysOnTop = true
